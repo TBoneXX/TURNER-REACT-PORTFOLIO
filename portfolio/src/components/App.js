@@ -1,15 +1,16 @@
 import React from 'react';
 import {Route, Routes } from 'react-router-dom';
+import '../css/app.css'
 
-import About from './components/About'
-import Contact from './components/Contact'
-import Home from './components/Home'
-import Navbar from './components/Navbar'
-import Projects from './components/Projects'
+import About from './About'
+import Contact from './Contact'
+import Home from './Home'
+import Navbar from './Navbar'
+import Projects from './Projects'
 
-import github from "./img/github.png"
-import linked from "./img/linkedin.png"
-import email from "./img/email.png"
+import github from "../img/github.png"
+import linked from "../img/linkedin.png"
+import email from "../img/email.png"
 
 
 
