@@ -1,3 +1,11 @@
+@import 'about.css';
+@import 'contact.css';
+@import 'footer.css';
+@import 'home.css';
+@import 'img.css';
+@import 'navbar.css';
+@import 'projects.css';
+
 body {
     
 }
