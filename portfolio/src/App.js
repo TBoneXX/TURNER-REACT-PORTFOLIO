@@ -1,31 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Route, Routes } from 'react-router-dom';
+
 import About from './components/About'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Header from './components/Header'
+import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
-import Main from './Main'
+
+import github from "./img/github.png"
+import linked from "./img/linkedin.png"
+import email from "./img/email.png"
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/About" element={<About />} />
+          <Route exact path="/Projects" element={<Projects />} />
+          <Route exact path="/Contact" element={<Contact />} />
+        </Routes>
+      </div>
+      <footer>
+        <div className="footer">
+          <h2>Developed by Mark Turner</h2>
+          <ul className="socials">
+            <li>
+              <a href="https://github.com/TboneXX">
+                <img className="appIcon" src={github} alt="github"></img>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mark-turner-12358475/">
+                <img className="appIcon" src={linked} alt="linkedin"></img>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:mark.edward.turner@gmail.com">
+                <img className="appIcon" src={email} alt="email"></img>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </>
   );
 }
 
