@@ -21,7 +21,7 @@ function App() {
       <Navbar />
       <div className="container">
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/Home" element={<Home />} />
           <Route exact path="/About" element={<About />} />
           <Route exact path="/Projects" element={<Projects />} />
           <Route exact path="/Contact" element={<Contact />} />
@@ -29,7 +29,7 @@ function App() {
       </div>
       <footer>
         <div className="footer">
-          <h2>Developed by Mark Turner</h2>
+          {/* <h2>Developed by Mark Turner</h2> */}
           <ul className="socials">
             <li>
               <a href="https://github.com/TboneXX">

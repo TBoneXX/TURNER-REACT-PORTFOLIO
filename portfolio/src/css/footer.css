@@ -6,6 +6,11 @@
 }
 
 .footer {
+   display: flex;
+  background-color: lightblue;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
    
-    
 }

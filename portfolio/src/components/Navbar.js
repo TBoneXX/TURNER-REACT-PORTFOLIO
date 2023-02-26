@@ -6,10 +6,10 @@ export default function navbar() {
   return (
     <nav className="nav">
       <ul className="navbar">
-          <CustomLink to="/Home">Home</CustomLink>
-          <CustomLink to="/About">About</CustomLink>
-          <CustomLink to="/Projects">Projects</CustomLink>
-          <CustomLink to="/Contact">Contact</CustomLink>
+          <CustomLink to="/Home" className="navlink">Home</CustomLink>
+          <CustomLink to="/About" className="navlink">About</CustomLink>
+          <CustomLink to="/Projects" className="navlink">Projects</CustomLink>
+          <CustomLink to="/Contact" className="navlink">Contact</CustomLink>
       </ul>
     </nav>
   );
