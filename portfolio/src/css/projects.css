@@ -1,3 +1,6 @@
+
+
+
 .project-header {
     display:flex;
     justify-content: center;
@@ -5,9 +8,41 @@
     font-size: xx-large;
 }
 
+.project-table {
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
 .brews {
+    display:flex;
     background-image:url("../img/beer.jpg") ;
-    max-width: 50%;
+    max-width: 47%;
+    padding:20px;
+    margin:20px;
+    border-width:5px;
+    border-style:solid;
+    border-color: #041E42;
+    border-radius: 20px;
+}
+
+.fullStacks {
+    display: flex;
+    background-image:url("../img/pancakes.png") ;
+    max-width: 47%;
+    padding:20px;
+    margin:20px;
+    border-width:5px;
+    border-style:solid;
+    border-color: #041E42;
+    border-radius: 20px;
+}
+.completeIT {
+    display: flex;
+    background-image:url("../img/checklist.png") ;
+    max-width: 47%;
     padding:20px;
     margin:20px;
     border-width:5px;
@@ -49,5 +84,17 @@
     border-width:5px;
     border-style:solid;
     border-color: #7BAFD4;
+    border-radius: 20px;
+}
+
+.pwa {
+    display:flex;
+    background-image:url("../img/pwa.png") ;
+    max-width: 47%;
+    padding:20px;
+    margin:20px;
+    border-width:5px;
+    border-style:solid;
+    border-color: #041E42;
     border-radius: 20px;
 }
