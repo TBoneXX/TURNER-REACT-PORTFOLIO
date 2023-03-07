@@ -1,0 +1,45 @@
+.labelForm {
+
+display: flex;
+box-sizing: border-box;
+width: 200px;
+padding: 20px;
+font-size: 25px;
+
+}
+
+.input {
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+}
+
+.inputMessage {
+    box-sizing: border-box;
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+} 
+
+
+.sendButton {
+    background-color: navy;
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
+.sendButton:hover {
+    background-color: #7BAFD4;
+    color:white;
+}
+.contactMeParagraph {
+    font-size: 20px;
+}
