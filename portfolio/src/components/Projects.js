@@ -3,18 +3,28 @@ import React, { Component } from "react";
 class Projects extends Component {
   render() {
     return (
-        <div>
-        <h2>Project Lists</h2>
-        <p>Mauris sem velit, vehicula eget sodales vitae,
-        rhoncus eget sapien:</p>
-        <ol>
-          <li>Nulla pulvinar diam</li>
-          <li>Facilisis bibendum</li>
-          <li>Vestibulum vulputate</li>
-          <li>Eget erat</li>
-          <li>Id porttitor</li>
-        </ol>
-      </div>
+        <>
+          <h2 className="project-header">Projects</h2>
+        
+          <div className="brews">
+            <figure className="work-focus">
+            <p className="focus-title"><a href="https://mdh1080.github.io/Brews-and-Chews/">Brews and Chews App</a></p>
+            <p className="subtitle">Find a Brewery and Restaurant in the City of your Choice</p>
+            </figure>
+        </div>
+
+        
+       
+
+           
+
+            
+        
+
+
+      
+         </>
+      
     )
   }
 }
