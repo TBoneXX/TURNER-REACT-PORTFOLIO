@@ -1,7 +1,7 @@
 .navbar {
   display:flex;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
   border-bottom: 5px solid black;
   min-width: 100vw;
   list-style: none;

@@ -1,16 +1,15 @@
 .socials {
     display: flex;
-    align-items: flex-end;
     justify-content: center;
     list-style: none;
 }
 
 .footer {
-   display: flex;
+   
   background-color: lightblue;
     position: absolute;
     bottom: 0;
-    padding: 20px;
+    padding: 5px;
     width: 100%;
    
 }

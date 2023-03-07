@@ -11,6 +11,8 @@ import Projects from './Projects'
 import github from "../img/github.png"
 import linked from "../img/linkedin.png"
 import email from "../img/email.png"
+import resume from "../img/resume.pdf"
+import resumeIcon from "../img/resume.png"
 
 
 
@@ -31,21 +33,27 @@ function App() {
         <div className="footer">
           {/* <h2>Developed by Mark Turner</h2> */}
           <ul className="socials">
+          <li>
+              <a href= {resume} target="blank">
+                <img className="appIcon" src={resumeIcon} alt="resume"></img>
+              </a>
+            </li>
             <li>
-              <a href="https://github.com/TboneXX">
+              <a href="https://github.com/TboneXX" target="_blank">
                 <img className="appIcon" src={github} alt="github"></img>
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/mark-turner-12358475/">
+              <a href="https://www.linkedin.com/in/mark-turner-12358475/" target="_blank">
                 <img className="appIcon" src={linked} alt="linkedin"></img>
               </a>
             </li>
             <li>
-              <a href="mailto:mark.edward.turner@gmail.com">
+              <a href="mailto:mark.edward.turner@gmail.com" >
                 <img className="appIcon" src={email} alt="email"></img>
               </a>
             </li>
+          
           </ul>
         </div>
       </footer>
