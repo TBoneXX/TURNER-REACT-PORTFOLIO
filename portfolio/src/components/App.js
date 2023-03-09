@@ -48,11 +48,11 @@ function App() {
                 <img className="appIcon" src={linked} alt="linkedin"></img>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="mailto:mark.edward.turner@gmail.com" >
                 <img className="appIcon" src={email} alt="email"></img>
               </a>
-            </li>
+            </li> */}
           
           </ul>
         </div>

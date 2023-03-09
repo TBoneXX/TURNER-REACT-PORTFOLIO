@@ -1,0 +1,40 @@
+.turners-pic-home {
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin:20px;
+    margin-left:20px;
+    margin-right: 20px;
+    width:50%;
+    
+}
+.home {
+    border-width:5px;
+    border-style:solid;
+    border-color: #041E42;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.home-header {
+    text-align: center;
+    display:flex;
+    justify-content: flex-start;
+    align-items: top;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;   
+}
+
+.home-paragraph {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;   
+}
