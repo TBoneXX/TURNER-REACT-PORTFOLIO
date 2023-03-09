@@ -10,7 +10,7 @@ import Projects from './Projects'
 
 import github from "../img/github.png"
 import linked from "../img/linkedin.png"
-import email from "../img/email.png"
+
 import resume from "../img/resume.pdf"
 import resumeIcon from "../img/resume.png"
 
